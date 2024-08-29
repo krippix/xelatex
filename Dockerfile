@@ -5,4 +5,5 @@ RUN apt-get update -y
 RUN apt-get install -qq -y \
   texlive \
   texlive-xetex \
+  texlive-hyphen-*\
   latexmk
