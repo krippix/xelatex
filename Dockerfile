@@ -8,6 +8,6 @@ RUN apt-get install -qq -y \
   texlive-lang-german\
   texlive-science\
   latexmk\
-  python3-pip
+  pipx
 
-RUN pip3 install latexminted
+RUN pipx install latexminted
