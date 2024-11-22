@@ -7,7 +7,7 @@ RUN apt-get install -qq -y \
   texlive-xetex \
   texlive-lang-german\
   texlive-science\
-  latexmk
+  latexmk\
   python3-pip
 
 RUN pip3 install latexminted
